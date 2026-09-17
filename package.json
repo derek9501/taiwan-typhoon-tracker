@@ -1,0 +1,15 @@
+{
+  "name": "taiwan-typhoon-tracker",
+  "version": "0.1.0",
+  "description": "追蹤西太平洋活動颱風位置，結合 CWA 官方定位與 OpenWeather 網格內插估算",
+  "type": "module",
+  "scripts": {
+    "update": "node scripts/update.js"
+  },
+  "dependencies": {
+    "fast-xml-parser": "^4.5.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
